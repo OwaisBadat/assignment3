@@ -25,16 +25,16 @@ def rbubble_sort(new_list):
                 new_list[i] = new_list[i+1]
                 new_list[i+1] = temp
 
-
+print("*************ORIGINAL*****************")
 new_list = [56,343,94,37,58,203,59,82]
 print(new_list)
-print("******************************")
+print("*************ACCENDING*****************")
 bubble_sort(new_list)
 print(new_list)
-print("******************************")
+print("**************DECENDING****************")
 rbubble_sort(new_list)
 print(new_list)
-print("******************************")
+
 
 
 
